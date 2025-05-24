@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    background-color: #222;
+    color: #fff;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #80c0ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: #e74c3c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+.message {
+    background-color: #2ecc71;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
